@@ -20,5 +20,17 @@
       ]]></description>
       <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v0.9.1/AgentAwake-0.9.1.dmg" type="application/octet-stream" sparkle:edSignature="AoOeoywkPDuKp1KyVntl2JsZIvK/bpuB4+bMMfMVxIld7Q1Xrki4oO65+HZgNW6139dLcvxhCHwjVjIHB72EBQ==" length="4500361"/>
     </item>
+    <item>
+      <title>Version 0.9.2</title>
+      <pubDate>Thu, 15 Oct 2026 01:37:31 +0000</pubDate>
+      <sparkle:version>86</sparkle:version>
+      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[
+<p>Beta update test: no changes for you.</p>
+      ]]></description>
+      <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v0.9.2/AgentAwake-0.9.2.dmg" type="application/octet-stream" sparkle:edSignature="pvD2VQ7oUOJ5pQHaw8LLRBLdfPuu7Jx86x8NfOP79fhkrzYcnIcBsHys2FCa0ry9oUUc6ZaSYEAjyJ43uJXgAA==" length="4500908"/>
+    </item>
   </channel>
 </rss>
