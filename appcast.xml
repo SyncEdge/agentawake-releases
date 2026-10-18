@@ -53,5 +53,24 @@
       ]]></description>
       <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.0/AgentAwake-1.0.0.dmg" type="application/octet-stream" sparkle:edSignature="v1oGm4b3UWfr8cyW2GA68cDNXPV2XGthAE5GR4JQIVLzCqUDUIpNZWzOsRznNv+3CT8KpU6HIek6gMObsu4EAw==" length="4968163"/>
     </item>
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Sun, 18 Oct 2026 16:59:09 +0000</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>AgentAwake 1.0.1</h2>
+<p>Cooler and lighter.</p>
+<ul>
+  <li>AgentAwake itself now uses almost no processor time in the background. With several agents working, it used to take about a fifth of a core to animate a panel nobody could see.</li>
+  <li>Fan control now watches the hottest CPU cores. On Apple Silicon it used to read only the averaged chip sensors, which can stay 20 °C cooler than the busiest cores, so the fans often stayed slow while the Mac got hot.</li>
+  <li>New fan profiles to match: Balanced starts the fans at 65 °C and reaches full speed at 90 °C, Cool first 55–82 °C, Quiet 80–100 °C. At 95 °C or more every fan runs at full speed.</li>
+  <li>If you use Custom and never changed its points, they move to the new default. Points you drew yourself are kept; check them in <b>Edit fan curve…</b>, as the temperature shown is now higher.</li>
+</ul>
+<p>Updating asks for your password once, to update AgentAwake's helper.</p>
+      ]]></description>
+      <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.1/AgentAwake-1.0.1.dmg" type="application/octet-stream" sparkle:edSignature="mh5Sg/2a3YzFC7YHeGT0HFBCkgk0kix/edbb+vRZ0AAyUDHmflunRd/vo2IpwoesJbIillLFNPV5o1aNPIVYCA==" length="4984969"/>
+    </item>
   </channel>
 </rss>
