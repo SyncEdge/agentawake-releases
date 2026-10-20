@@ -10,6 +10,10 @@
   },
   "homepage": "https://syncedge.tech/en/agentawake/",
   "repository": "https://github.com/SyncEdge/agentawake-releases",
+  "documentationUrl": "https://github.com/SyncEdge/agentawake-releases/tree/main/claude-code/agentawake",
+  "supportUrl": "https://github.com/SyncEdge/agentawake-releases/issues",
+  "privacyPolicyUrl": "https://syncedge.tech/en/privacy/",
+  "termsOfServiceUrl": "https://syncedge.tech/en/terms/",
   "license": "MIT",
   "icon": ".claude-plugin/icon.png",
   "keywords": [
