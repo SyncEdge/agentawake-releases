@@ -72,5 +72,22 @@
       ]]></description>
       <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.1/AgentAwake-1.0.1.dmg" type="application/octet-stream" sparkle:edSignature="mh5Sg/2a3YzFC7YHeGT0HFBCkgk0kix/edbb+vRZ0AAyUDHmflunRd/vo2IpwoesJbIillLFNPV5o1aNPIVYCA==" length="4984969"/>
     </item>
+    <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Tue, 20 Oct 2026 13:18:44 +0000</pubDate>
+      <sparkle:version>116</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>AgentAwake 1.0.2</h2>
+<p>Updates finish by themselves.</p>
+<ul>
+  <li>From now on, AgentAwake updates its helper on its own after each app update, with no password. Before, an update could leave the old helper running, so fan control kept using old code; after 1.0.1 that meant the temperature shown could be 20–40 °C lower than the real one.</li>
+  <li>If the helper is still out of date, the panel now says so, and the Cooling section shows the real temperature in the meantime.</li>
+</ul>
+<p>This update asks for your password one last time, to install the helper that can update itself.</p>
+      ]]></description>
+      <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.2/AgentAwake-1.0.2.dmg" type="application/octet-stream" sparkle:edSignature="AMz3HzQ7vGBEWedgO7SFzmSRySPx4L2r3VPk8BE5JsCoi6kX6HstTgTppMJdSGa6i432QJR+akxDg50U/Z+kAw==" length="5026469"/>
+    </item>
   </channel>
 </rss>
