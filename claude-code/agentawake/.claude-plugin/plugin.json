@@ -1,5 +1,6 @@
 {
   "name": "agentawake",
+  "displayName": "AgentAwake",
   "version": "1.0.0",
   "description": "Teaches Claude Code to keep your Mac awake (with the AgentAwake app) for background jobs, loops and background agents, even with the lid closed.",
   "author": {
