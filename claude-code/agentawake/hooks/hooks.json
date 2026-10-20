@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -x '/Applications/AgentAwake.app/Contents/Helpers/agentawake' ] && '/Applications/AgentAwake.app/Contents/Helpers/agentawake' rules || true",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
