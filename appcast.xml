@@ -89,5 +89,23 @@
       ]]></description>
       <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.2/AgentAwake-1.0.2.dmg" type="application/octet-stream" sparkle:edSignature="AMz3HzQ7vGBEWedgO7SFzmSRySPx4L2r3VPk8BE5JsCoi6kX6HstTgTppMJdSGa6i432QJR+akxDg50U/Z+kAw==" length="5026469"/>
     </item>
+    <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Tue, 20 Oct 2026 13:35:36 +0000</pubDate>
+      <sparkle:version>117</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>AgentAwake 1.0.3</h2>
+<p>Clearer temperatures.</p>
+<ul>
+  <li>The big number in Cooling is now labelled <b>hottest spot</b>: the hottest of the dozens of sensors on the chip, which is what the fans react to. It reads 5–10 °C above the per-core figures other apps show.</li>
+  <li>Under it, <b>CPU avg</b> shows the average of the CPU sensors, for comparing with other temperature apps.</li>
+  <li>The temperature turns red only from 90 °C, close to full fan speed, rather than whenever another app controls the fans.</li>
+</ul>
+<p>If you already have 1.0.2, the helper updates by itself: no password.</p>
+      ]]></description>
+      <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.3/AgentAwake-1.0.3.dmg" type="application/octet-stream" sparkle:edSignature="6hpuzWBbHijU5XG4tDEBpuyOb4rmr6e6y5D2GZ+Engxv7s4Wvi351Tg8nBCcsAc1YWykZnrD6zXX+BanWkX7Aw==" length="5049060"/>
+    </item>
   </channel>
 </rss>
