@@ -2,8 +2,20 @@
   "name": "agentawake",
   "version": "1.0.0",
   "description": "Teaches Claude Code to keep your Mac awake (with the AgentAwake app) for background jobs, loops and background agents, even with the lid closed.",
-  "author": { "name": "SyncEdge", "email": "support@syncedge.tech", "url": "https://syncedge.tech" },
+  "author": {
+    "name": "SyncEdge",
+    "email": "support@syncedge.tech",
+    "url": "https://syncedge.tech"
+  },
   "homepage": "https://syncedge.tech/en/agentawake/",
   "repository": "https://github.com/SyncEdge/agentawake-releases",
-  "keywords": ["macos", "sleep", "caffeinate", "background", "lid"]
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": [
+    "macos",
+    "sleep",
+    "caffeinate",
+    "background",
+    "lid"
+  ]
 }
