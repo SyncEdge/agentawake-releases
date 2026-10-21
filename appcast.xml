@@ -107,5 +107,25 @@
       ]]></description>
       <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.3/AgentAwake-1.0.3.dmg" type="application/octet-stream" sparkle:edSignature="6hpuzWBbHijU5XG4tDEBpuyOb4rmr6e6y5D2GZ+Engxv7s4Wvi351Tg8nBCcsAc1YWykZnrD6zXX+BanWkX7Aw==" length="5049060"/>
     </item>
+    <item>
+      <title>Version 1.0.4</title>
+      <pubDate>Wed, 21 Oct 2026 03:04:32 +0000</pubDate>
+      <sparkle:version>122</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>AgentAwake 1.0.4</h2>
+<p>Fans follow the CPU average.</p>
+<ul>
+  <li>The fan curve now follows <b>CPU avg</b>, the average of the CPU core sensors, instead of the single hottest sensor. It moves more smoothly, so the fans no longer chase one busy core.</li>
+  <li>The presets move 15 °C lower to match: Balanced 50–75 °C, Cool 40–67 °C, Quiet 65–85 °C.</li>
+  <li>The <b>hottest spot</b> still guards the chip: at 95 °C every fan runs at full speed, whatever the curve says.</li>
+  <li>Cooling shows CPU avg as the big number, with the hottest spot under it.</li>
+  <li>A Custom curve you drew yourself is kept as drawn; it now reads the CPU average, which runs about 15–20 °C below the hottest spot under load.</li>
+</ul>
+<p>If you already have 1.0.2 or later, the helper updates by itself: no password.</p>
+      ]]></description>
+      <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.4/AgentAwake-1.0.4.dmg" type="application/octet-stream" sparkle:edSignature="TpGYGoAauw32/926oGSR2FgmG6bn1ckYJGr0qVY2cIVn9JDtdiBW7aFyXUC1dcigsqTXDaO6D9yrK7zFidmmBA==" length="5056368"/>
+    </item>
   </channel>
 </rss>
