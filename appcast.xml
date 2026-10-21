@@ -127,5 +127,25 @@
       ]]></description>
       <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.4/AgentAwake-1.0.4.dmg" type="application/octet-stream" sparkle:edSignature="TpGYGoAauw32/926oGSR2FgmG6bn1ckYJGr0qVY2cIVn9JDtdiBW7aFyXUC1dcigsqTXDaO6D9yrK7zFidmmBA==" length="5056368"/>
     </item>
+    <item>
+      <title>Version 1.0.5</title>
+      <pubDate>Wed, 21 Oct 2026 13:08:40 +0000</pubDate>
+      <sparkle:version>131</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>AgentAwake 1.0.5</h2>
+<p>Fixes for the CPU-average fan curve.</p>
+<ul>
+  <li><b>Intel Macs</b> are back on their earlier fan curves. On Intel the CPU average runs close to the hottest spot, so 1.0.4's lower curves ran the fans much faster than intended.</li>
+  <li><b>Custom curves</b> you drew on Apple Silicon move up to 15 °C lower, once, keeping their shape, so they suit the CPU average they now follow. Untouched default curves become the new default. If you redrew your curve in 1.0.4, check it in <b>Edit fan curve…</b>: it moved too, so the fans start earlier.</li>
+  <li>When the full-speed rule is on, Cooling says <b>"hottest spot above 95 °C"</b>, and the curve window shows full speed until the hottest spot cools below 92 °C, as the fans do.</li>
+  <li>When no CPU average is available, the temperature is labelled <b>hottest spot</b> rather than CPU avg (red from 90 °C), and the fan curve allows for the difference.</li>
+  <li>The curve window uses the same readings as the panel and shows what the fan service is really doing: its speed while slowing down, the lid-closed minimum, or macOS automatic.</li>
+</ul>
+<p>If you already have 1.0.2 or later, the helper updates by itself: no password.</p>
+      ]]></description>
+      <enclosure url="https://github.com/SyncEdge/agentawake-releases/releases/download/v1.0.5/AgentAwake-1.0.5.dmg" type="application/octet-stream" sparkle:edSignature="7/E89c8543I2TZe6MczIIJ4nB4wRtlRRuY8laPZdf5CIseudZThXjiYCxZ26s0w1nqBEn9TRlwc2Ak2s3XUOBg==" length="5118836"/>
+    </item>
   </channel>
 </rss>
